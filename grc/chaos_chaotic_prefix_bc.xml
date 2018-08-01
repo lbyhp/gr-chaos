@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<block>
+  <name>chaotic prefix</name>
+  <key>chaos_chaotic_prefix_bc</key>
+  <category>[CHAOS]</category>
+  <import>import chaos</import>
+  <make>chaos.chaotic_prefix_bc($init, $parameter, $header_len, $len_tag_key)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+<param>
+    <name>Initial condition</name>
+    <key>init</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Header length</name>
+    <key>header_len</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Map parameter</name>
+    <key>parameter</key>
+    <type>float</type>
+  </param>
+
+
+  <param>
+    <name>packet length tag key</name>
+    <key>len_tag_key</key>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

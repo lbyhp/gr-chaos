@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1chaos_1_1chaotic__prefix__bc" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::chaos::chaotic_prefix_bc</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl" prot="public" virt="non-virtual">gr::chaos::chaotic_prefix_bc_impl</derivedcompoundref>
+    <includes refid="chaotic__prefix__bc_8h" local="no">chaotic_prefix_bc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1chaos_1_1chaotic__prefix__bc_1aaa0cb35a3e323a6f0be4e9b6d027c760" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1chaos_1_1chaotic__prefix__bc" kindref="compound">chaotic_prefix_bc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;chaotic_prefix_bc&gt; gr::chaos::chaotic_prefix_bc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" line="39" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__prefix__bc_1a129c685c4cd13b4da77564df2cfc2be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>virtual std::vector&lt;float&gt; gr::chaos::chaotic_prefix_bc::Logistic_map</definition>
+        <argsstring>(float init, float parameter, unsigned int seq_len)=0</argsstring>
+        <name>Logistic_map</name>
+        <reimplementedby refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1ab228d92b56f78656e392d13a315d5804">Logistic_map</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>init</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>seq_len</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1chaos_1_1chaotic__prefix__bc" kindref="compound">chaos::chaotic_prefix_bc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1chaos_1_1chaotic__prefix__bc" kindref="compound">chaos::chaotic_prefix_bc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a2736b95eeb1fd84242cc54770143284d" kindref="member">chaos::chaotic_prefix_bc::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__prefix__bc_1a2736b95eeb1fd84242cc54770143284d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1aaa0cb35a3e323a6f0be4e9b6d027c760" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::chaos::chaotic_prefix_bc::make</definition>
+        <argsstring>(float init, float parameter, unsigned int header_len, const std::string &amp;len_tag_key)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>init</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>header_len</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_tag_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::chaos::chaotic_prefix_bc_impl</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>gr::chaos::chaotic_prefix_bc</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__prefix__bc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::chaos::chaotic_prefix_bc</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__prefix__bc"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" line="37" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a129c685c4cd13b4da77564df2cfc2be1" prot="public" virt="pure-virtual"><scope>gr::chaos::chaotic_prefix_bc</scope><name>Logistic_map</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a2736b95eeb1fd84242cc54770143284d" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_prefix_bc</scope><name>make</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1aaa0cb35a3e323a6f0be4e9b6d027c760" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_prefix_bc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

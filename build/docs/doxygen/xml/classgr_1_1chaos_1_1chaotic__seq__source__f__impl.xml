@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::chaos::chaotic_seq_source_f_impl</compoundname>
+    <basecompoundref refid="classgr_1_1chaos_1_1chaotic__seq__source__f" prot="public" virt="non-virtual">gr::chaos::chaotic_seq_source_f</basecompoundref>
+    <includes refid="chaotic__seq__source__f__impl_8h" local="no">chaotic_seq_source_f_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1abbfe377bc72a6fa2a0d64c6921166b4f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::chaos::chaotic_seq_source_f_impl::d_seed</definition>
+        <argsstring></argsstring>
+        <name>d_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="34" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a64c74104ff75f053ac38a77d0bd2cb3e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::chaos::chaotic_seq_source_f_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="35" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a55f2180b55747a512d3a2333f83d0896" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::chaos::chaotic_seq_source_f_impl::d_settags</definition>
+        <argsstring></argsstring>
+        <name>d_settags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="36" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1af9307d6b0a58d3618a14fda7dba9669e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::chaos::chaotic_seq_source_f_impl::d_repeat</definition>
+        <argsstring></argsstring>
+        <name>d_repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="37" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a58fb0ac148a1aca51fe7d3fbbff68ac0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::chaos::chaotic_seq_source_f_impl::d_seq_len</definition>
+        <argsstring></argsstring>
+        <name>d_seq_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="38" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ae003a9c1d81a4b6902397eae42249d07" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::chaos::chaotic_seq_source_f_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="39" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a60e11fafa243efb4b6090038db5c927b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::chaos::chaotic_seq_source_f_impl::d_map_parameter</definition>
+        <argsstring></argsstring>
+        <name>d_map_parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="40" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a7813555cfffafb6d623d7a6e8799d897" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::chaos::chaotic_seq_source_f_impl::d_x_n</definition>
+        <argsstring></argsstring>
+        <name>d_x_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="41" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ab79496aaaf482856aa36decdfe354209" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::chaos::chaotic_seq_source_f_impl::d_chaotic_seq</definition>
+        <argsstring></argsstring>
+        <name>d_chaotic_seq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="42" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ac786d6a013a7d335cd074960fd630e0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::chaos::chaotic_seq_source_f_impl::chaotic_seq_source_f_impl</definition>
+        <argsstring>(float seed, int seq_len, float map_parameter, const std::vector&lt; tag_t &gt; &amp;tags, bool repeat)</argsstring>
+        <name>chaotic_seq_source_f_impl</name>
+        <param>
+          <type>float</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seq_len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>map_parameter</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1af09d98c3d21809574eaea3c562b8708a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::chaos::chaotic_seq_source_f_impl::~chaotic_seq_source_f_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~chaotic_seq_source_f_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ad470fc2abdf71065b07b125509b9286a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::chaos::chaotic_seq_source_f_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a642b8098242e0ce4a92242793b4618b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::chaos::chaotic_seq_source_f_impl::chaotic_map</definition>
+        <argsstring>(float map_parameter, float x_n)</argsstring>
+        <name>chaotic_map</name>
+        <param>
+          <type>float</type>
+          <declname>map_parameter</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x_n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>gr::chaos::chaotic_seq_source_f_impl</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>gr::chaos::chaotic_seq_source_f</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>gr::chaos::chaotic_seq_source_f_impl</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gr::chaos::chaotic_seq_source_f</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" line="30" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/chaotic_seq_source_f_impl.h" bodystart="29" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a642b8098242e0ce4a92242793b4618b3" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>chaotic_map</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ac786d6a013a7d335cd074960fd630e0a" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>chaotic_seq_source_f_impl</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ab79496aaaf482856aa36decdfe354209" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_chaotic_seq</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a60e11fafa243efb4b6090038db5c927b" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_map_parameter</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ae003a9c1d81a4b6902397eae42249d07" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1af9307d6b0a58d3618a14fda7dba9669e" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_repeat</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1abbfe377bc72a6fa2a0d64c6921166b4f" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_seed</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a58fb0ac148a1aca51fe7d3fbbff68ac0" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_seq_len</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a55f2180b55747a512d3a2333f83d0896" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_settags</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a64c74104ff75f053ac38a77d0bd2cb3e" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a7813555cfffafb6d623d7a6e8799d897" prot="private" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>d_x_n</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a9b7f715c92b59cd837f75b7c3cc7f0d1" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a1519a60bd9c383e799529fbf4f5ffc0f" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ad470fc2abdf71065b07b125509b9286a" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1af09d98c3d21809574eaea3c562b8708a" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f_impl</scope><name>~chaotic_seq_source_f_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

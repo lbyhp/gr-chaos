@@ -1,0 +1,35 @@
+<block>
+  <name>CPM demod</name>
+  <key>chaos_CPM_demod_fc</key>
+  <category>[CHAOS]</category>
+  <import>import chaos</import>
+  <make>chaos.CPM_demod_fc($seq_len, $constell_tab, $para_tab,$len_tag_key)</make>
+  <param>
+    <name>Seq_len</name>
+    <key>seq_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Constellation table</name>
+    <key>constell_tab</key>
+    <type>complex_vector</type>
+  </param>
+  <param>
+    <name>Parameter table</name>
+    <key>para_tab</key>
+    <type>real_vector</type>
+  </param>
+  <param>
+    <name>packet length tag key</name>
+    <key>len_tag_key</key>
+    <type>string</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

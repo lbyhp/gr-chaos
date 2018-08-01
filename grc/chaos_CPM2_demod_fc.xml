@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<block>
+  <name>CPM2_demod_fc</name>
+  <key>chaos_CPM2_demod_fc</key>
+  <category>[CHAOS]</category>
+  <import>import chaos</import>
+  <make>chaos.CPM2_demod_fc($spreading_gain, $len_tag_key)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>spreading gain</name>
+    <key>spreading_gain</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>packet length tag key</name>
+    <key>len_tag_key</key>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

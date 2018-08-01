@@ -1,0 +1,7 @@
+test_chaos 19 0.000128156
+qa_chaotic_seq_source_f 19 0.00952721
+qa_CPM_cf 0 0
+qa_CPM_demod_fc 17 0.0110072
+qa_CPM2_cf 19 0.00999052
+qa_DCSK_mod_cc 27 0.00681885
+---

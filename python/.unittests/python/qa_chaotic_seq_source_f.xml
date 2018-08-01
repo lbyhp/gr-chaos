@@ -1,0 +1,7 @@
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="3" time="0.008">
+  <testcase classname="__main__.qa_chaotic_seq_source_f" name="test_001_t" time="0.0018"></testcase>
+  <testcase classname="__main__.qa_chaotic_seq_source_f" name="test_002_t" time="0.0016"></testcase>
+  <testcase classname="__main__.qa_chaotic_seq_source_f" name="test_003" time="0.0040"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

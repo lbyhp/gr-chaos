@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1chaos" kind="namespace" language="C++">
+    <compoundname>gr::chaos</compoundname>
+    <innerclass refid="classgr_1_1chaos_1_1chaotic__prefix__bc" prot="public">gr::chaos::chaotic_prefix_bc</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1chaotic__seq__source__f" prot="public">gr::chaos::chaotic_seq_source_f</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1CPM2__cf" prot="public">gr::chaos::CPM2_cf</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1CPM2__demod__fc" prot="public">gr::chaos::CPM2_demod_fc</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1CPM__cf" prot="public">gr::chaos::CPM_cf</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1CPM__demod__fc" prot="public">gr::chaos::CPM_demod_fc</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1DCSK__demod__cc" prot="public">gr::chaos::DCSK_demod_cc</innerclass>
+    <innerclass refid="classgr_1_1chaos_1_1DCSK__mod__cc" prot="public">gr::chaos::DCSK_mod_cc</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_prefix_bc.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

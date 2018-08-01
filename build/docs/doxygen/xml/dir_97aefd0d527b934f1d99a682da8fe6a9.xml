@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="chaotic__prefix__bc__impl_8h">chaotic_prefix_bc_impl.h</innerfile>
+    <innerfile refid="chaotic__seq__source__f__impl_8h">chaotic_seq_source_f_impl.h</innerfile>
+    <innerfile refid="CPM2__cf__impl_8h">CPM2_cf_impl.h</innerfile>
+    <innerfile refid="CPM2__demod__fc__impl_8h">CPM2_demod_fc_impl.h</innerfile>
+    <innerfile refid="CPM__cf__impl_8h">CPM_cf_impl.h</innerfile>
+    <innerfile refid="CPM__demod__fc__impl_8h">CPM_demod_fc_impl.h</innerfile>
+    <innerfile refid="DCSK__demod__cc__impl_8h">DCSK_demod_cc_impl.h</innerfile>
+    <innerfile refid="DCSK__mod__cc__impl_8h">DCSK_mod_cc_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/"/>
+  </compounddef>
+</doxygen>

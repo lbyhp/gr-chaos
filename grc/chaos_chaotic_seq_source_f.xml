@@ -1,0 +1,46 @@
+<block>
+  <name>Chaotic sequence source</name>
+  <key>chaos_chaotic_seq_source_f</key>
+  <category>[CHAOS]</category>
+  <import>import chaos</import>
+  <make>chaos.chaotic_seq_source_f($seed, $seq_len, $map_parameter, $tags, $repeat)</make>
+  <param>
+    <name>Seed</name>
+    <key>seed</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Seq_len</name>
+    <key>seq_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Map_parameter</name>
+    <key>map_parameter</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Tags</name>
+    <key>tags</key>
+    <value>[]</value>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Repeat</name>
+    <key>repeat</key>
+    <value>false</value>
+    <type>enum</type>
+    <option>
+	<name>Yes</name>
+	<key>True</key>
+    </option>
+    <option>
+	<name>No</name>
+	<key>False</key>
+    </option>
+  </param>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

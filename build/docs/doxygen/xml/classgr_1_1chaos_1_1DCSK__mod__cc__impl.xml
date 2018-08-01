@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1chaos_1_1DCSK__mod__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::chaos::DCSK_mod_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1chaos_1_1DCSK__mod__cc" prot="public" virt="non-virtual">gr::chaos::DCSK_mod_cc</basecompoundref>
+    <includes refid="DCSK__mod__cc__impl_8h" local="no">DCSK_mod_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a7ca0a9a8300f09312a58cd58fd7a8ef8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::chaos::DCSK_mod_cc_impl::d_seed</definition>
+        <argsstring></argsstring>
+        <name>d_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="33" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a392cec9f797eafd5cb3fcdc949f42c75" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::chaos::DCSK_mod_cc_impl::d_seq_len</definition>
+        <argsstring></argsstring>
+        <name>d_seq_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="34" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a54742018df398440b7b4a8dec139c407" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::chaos::DCSK_mod_cc_impl::CPF</definition>
+        <argsstring>(gr_complex x_n)</argsstring>
+        <name>CPF</name>
+        <param>
+          <type>gr_complex</type>
+          <declname>x_n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ab570882d2fa9b3884667ad9028ac77a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::chaos::DCSK_mod_cc_impl::Mean</definition>
+        <argsstring>(std::vector&lt; gr_complex &gt; sequence)</argsstring>
+        <name>Mean</name>
+        <param>
+          <type>std::vector&lt; gr_complex &gt;</type>
+          <declname>sequence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a7a2e0c0dc2916495b1f12497eb3c1b5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::chaos::DCSK_mod_cc_impl::MaxNorm</definition>
+        <argsstring>(std::vector&lt; gr_complex &gt; sequence)</argsstring>
+        <name>MaxNorm</name>
+        <param>
+          <type>std::vector&lt; gr_complex &gt;</type>
+          <declname>sequence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="37" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a5ecf41f28402972b6ad4173924d5f4d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::chaos::DCSK_mod_cc_impl::DCSK_mod_cc_impl</definition>
+        <argsstring>(float seed, int seq_len)</argsstring>
+        <name>DCSK_mod_cc_impl</name>
+        <param>
+          <type>float</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seq_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ad82115ffaefe8b3c3961982623e94ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::chaos::DCSK_mod_cc_impl::~DCSK_mod_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~DCSK_mod_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ab0bd23a6afcdf8223bc18867d788064f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::chaos::DCSK_mod_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>gr::chaos::DCSK_mod_cc_impl</label>
+        <link refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>sync_interpolator</label>
+      </node>
+      <node id="87">
+        <label>gr::chaos::DCSK_mod_cc</label>
+        <link refid="classgr_1_1chaos_1_1DCSK__mod__cc"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="89">
+        <label>gr::chaos::DCSK_mod_cc_impl</label>
+        <link refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>sync_interpolator</label>
+      </node>
+      <node id="90">
+        <label>gr::chaos::DCSK_mod_cc</label>
+        <link refid="classgr_1_1chaos_1_1DCSK__mod__cc"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" line="30" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/DCSK_mod_cc_impl.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a54742018df398440b7b4a8dec139c407" prot="private" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>CPF</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a7ca0a9a8300f09312a58cd58fd7a8ef8" prot="private" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>d_seed</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a392cec9f797eafd5cb3fcdc949f42c75" prot="private" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>d_seq_len</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a5ecf41f28402972b6ad4173924d5f4d5" prot="public" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>DCSK_mod_cc_impl</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc_1afb0eec00b78b28188dd708312e4e725a" prot="public" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a7a2e0c0dc2916495b1f12497eb3c1b5f" prot="private" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>MaxNorm</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ab570882d2fa9b3884667ad9028ac77a5" prot="private" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>Mean</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc_1a0e9fbb96d28659862290ce35f9c41de6" prot="public" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ab0bd23a6afcdf8223bc18867d788064f" prot="public" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ad82115ffaefe8b3c3961982623e94ac6" prot="public" virt="non-virtual"><scope>gr::chaos::DCSK_mod_cc_impl</scope><name>~DCSK_mod_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

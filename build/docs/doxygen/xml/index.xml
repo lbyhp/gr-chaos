@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1chaos_1_1chaotic__prefix__bc" kind="class"><name>gr::chaos::chaotic_prefix_bc</name>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1aaa0cb35a3e323a6f0be4e9b6d027c760" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a129c685c4cd13b4da77564df2cfc2be1" kind="function"><name>Logistic_map</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a2736b95eeb1fd84242cc54770143284d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl" kind="class"><name>gr::chaos::chaotic_prefix_bc_impl</name>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1ae284c13d4fb19f0641505c3dbf764a5e" kind="variable"><name>d_init</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1ac78157cca1dcd8705804ba7e1be2c3d0" kind="variable"><name>d_parameter</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1a9b82fdac5097c55dcc7f089dc7d94805" kind="variable"><name>d_header_len</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1a21d62455da9f26d5d8bb1ac272ea5865" kind="function"><name>calculate_output_stream_length</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1ad39acc9cc681a64bee73c115d3709c91" kind="function"><name>chaotic_prefix_bc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1a34887d143779591b65553643c139c514" kind="function"><name>~chaotic_prefix_bc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1ab228d92b56f78656e392d13a315d5804" kind="function"><name>Logistic_map</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc__impl_1ad3971a2e7413d7fd3e1e8fea011e8876" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1chaotic__seq__source__f" kind="class"><name>gr::chaos::chaotic_seq_source_f</name>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a1519a60bd9c383e799529fbf4f5ffc0f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a9b7f715c92b59cd837f75b7c3cc7f0d1" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl" kind="class"><name>gr::chaos::chaotic_seq_source_f_impl</name>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1abbfe377bc72a6fa2a0d64c6921166b4f" kind="variable"><name>d_seed</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a64c74104ff75f053ac38a77d0bd2cb3e" kind="variable"><name>d_tags</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a55f2180b55747a512d3a2333f83d0896" kind="variable"><name>d_settags</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1af9307d6b0a58d3618a14fda7dba9669e" kind="variable"><name>d_repeat</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a58fb0ac148a1aca51fe7d3fbbff68ac0" kind="variable"><name>d_seq_len</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ae003a9c1d81a4b6902397eae42249d07" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a60e11fafa243efb4b6090038db5c927b" kind="variable"><name>d_map_parameter</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a7813555cfffafb6d623d7a6e8799d897" kind="variable"><name>d_x_n</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ab79496aaaf482856aa36decdfe354209" kind="variable"><name>d_chaotic_seq</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ac786d6a013a7d335cd074960fd630e0a" kind="function"><name>chaotic_seq_source_f_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1af09d98c3d21809574eaea3c562b8708a" kind="function"><name>~chaotic_seq_source_f_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1ad470fc2abdf71065b07b125509b9286a" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl_1a642b8098242e0ce4a92242793b4618b3" kind="function"><name>chaotic_map</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM2__cf" kind="class"><name>gr::chaos::CPM2_cf</name>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf_1a98b0a15ec99b1206a712b822b999ce9f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf_1a1b1d91eab62b51eb94aafb8695a9d4b5" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM2__cf__impl" kind="class"><name>gr::chaos::CPM2_cf_impl</name>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1a0d8a60357efccffef90cfb226b1e9d66" kind="variable"><name>d_seq_len</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1a1ad4cfbcff92d26e1f9025ee47615108" kind="variable"><name>d_constell_tab</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1a5ee9255133653d433cebab4ab3e84dc6" kind="variable"><name>d_parameter</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1a810d27f3c74ab936cad32c31c1ea10ab" kind="function"><name>chaotic_map</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1af7fd2c56c971097f16fb10a80c9cc0df" kind="function"><name>CPM2_cf_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1a7e80b834cb75fdc6de3fe97bc4b5b52d" kind="function"><name>~CPM2_cf_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf__impl_1a130f8e497f6d4a92d4a7af968762e864" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM2__demod__fc" kind="class"><name>gr::chaos::CPM2_demod_fc</name>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc_1a6bf7ed113963da468253a6f30376516d" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc_1a01daed9e59a3341b1b3ce4cac55ebe38" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM2__demod__fc__impl" kind="class"><name>gr::chaos::CPM2_demod_fc_impl</name>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc__impl_1abbc95c772632f397aa93ffcf5250ee18" kind="variable"><name>d_spreading_gain</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc__impl_1a59816a3da0a9b195ce83b18c9dfe955f" kind="variable"><name>d_len_tag_key</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc__impl_1ab48a48b1b42f17ed9d3cf19205dfed7a" kind="function"><name>CPM2_demod_fc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc__impl_1a66564cef1fcaa4e611bef8999e6942ec" kind="function"><name>~CPM2_demod_fc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc__impl_1a82e118f28ad139c972978d9f32d26b94" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM__cf" kind="class"><name>gr::chaos::CPM_cf</name>
+    <member refid="classgr_1_1chaos_1_1CPM__cf_1aa5173923926830bcb35a0ea2a8bc6ab4" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf_1a84ec98448aa5552acfa2fdc381257ec1" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM__cf__impl" kind="class"><name>gr::chaos::CPM_cf_impl</name>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a08a8faa651eef9061e74bbb7f66a6b03" kind="variable"><name>d_seed</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1aaf66996e28ca30a3383fc366cad2108d" kind="variable"><name>d_seq_len</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1ab0193481e046a284bdf8ba1c2da7166a" kind="variable"><name>d_constell_tab</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a09c9c4d549ca4bec986a6850b3e87463" kind="variable"><name>d_para_tab</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1ae037c82bb089151ad291569717a5b5cf" kind="function"><name>chaotic_map</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a2bebe64391e7e72cc6b727582caf8eaf" kind="function"><name>CPM_cf_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a12b005ccfd86c5f9c1c7bc6dbfd255a4" kind="function"><name>~CPM_cf_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1aa69c2d51e94b9383e167ec6975700a8e" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM__demod__fc" kind="class"><name>gr::chaos::CPM_demod_fc</name>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc_1a23806c3855950ab66c26f1de1d923abb" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc_1a01491b81dad8fd1d8445273b72ec1bc4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM__demod__fc__impl" kind="class"><name>gr::chaos::CPM_demod_fc_impl</name>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1a6bdd7047d549da60252015dfa9d71a50" kind="variable"><name>d_seq_len</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1ad48eb8d3818ec6749f67b133ccc243c4" kind="variable"><name>d_constell_tab</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1abc037a14b88a34c7a0833c5f38e68cb9" kind="variable"><name>d_para_tab</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1a611afce62735979832bb48f27bc2c82d" kind="variable"><name>d_len_tag_key</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1a23d4accdcd4bad361d205e0770c88ab2" kind="function"><name>mean2para</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1ac377f2d8e782543797987de6c13f16bd" kind="function"><name>CPM_demod_fc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1ac7cf268bd7f0d50cbc152663a16e514c" kind="function"><name>~CPM_demod_fc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc__impl_1a29c19bbe85c5fa4b276cb725a13f9305" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1DCSK__demod__cc" kind="class"><name>gr::chaos::DCSK_demod_cc</name>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc_1a68ac781e5a280c7571914966aa330f5f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc_1a30c95cc5edeb8b0380fb3c69b90b3e05" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1DCSK__demod__cc__impl" kind="class"><name>gr::chaos::DCSK_demod_cc_impl</name>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc__impl_1a346eca4f00f2e7ee9eff52d265965a0c" kind="variable"><name>d_seq_len</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc__impl_1af209a67a123935ba03c96062acfd1cca" kind="function"><name>DCSK_demod_cc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc__impl_1af73f66fde0c43b73e5850d6aa976c120" kind="function"><name>~DCSK_demod_cc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc__impl_1a56f931569468c70d55d26b3923cd9bd2" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1DCSK__mod__cc" kind="class"><name>gr::chaos::DCSK_mod_cc</name>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc_1a0e9fbb96d28659862290ce35f9c41de6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc_1afb0eec00b78b28188dd708312e4e725a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl" kind="class"><name>gr::chaos::DCSK_mod_cc_impl</name>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a7ca0a9a8300f09312a58cd58fd7a8ef8" kind="variable"><name>d_seed</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a392cec9f797eafd5cb3fcdc949f42c75" kind="variable"><name>d_seq_len</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a54742018df398440b7b4a8dec139c407" kind="function"><name>CPF</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ab570882d2fa9b3884667ad9028ac77a5" kind="function"><name>Mean</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a7a2e0c0dc2916495b1f12497eb3c1b5f" kind="function"><name>MaxNorm</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1a5ecf41f28402972b6ad4173924d5f4d5" kind="function"><name>DCSK_mod_cc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ad82115ffaefe8b3c3961982623e94ac6" kind="function"><name>~DCSK_mod_cc_impl</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc__impl_1ab0bd23a6afcdf8223bc18867d788064f" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1chaos" kind="namespace"><name>gr::chaos</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a37c6151afb20e08f67d0537c06f8248c" kind="define"><name>CHAOS_API</name></member>
+  </compound>
+  <compound refid="chaotic__prefix__bc_8h" kind="file"><name>chaotic_prefix_bc.h</name>
+  </compound>
+  <compound refid="chaotic__prefix__bc__impl_8h" kind="file"><name>chaotic_prefix_bc_impl.h</name>
+  </compound>
+  <compound refid="chaotic__seq__source__f_8h" kind="file"><name>chaotic_seq_source_f.h</name>
+  </compound>
+  <compound refid="chaotic__seq__source__f__impl_8h" kind="file"><name>chaotic_seq_source_f_impl.h</name>
+  </compound>
+  <compound refid="CPM2__cf_8h" kind="file"><name>CPM2_cf.h</name>
+  </compound>
+  <compound refid="CPM2__cf__impl_8h" kind="file"><name>CPM2_cf_impl.h</name>
+  </compound>
+  <compound refid="CPM2__demod__fc_8h" kind="file"><name>CPM2_demod_fc.h</name>
+  </compound>
+  <compound refid="CPM2__demod__fc__impl_8h" kind="file"><name>CPM2_demod_fc_impl.h</name>
+  </compound>
+  <compound refid="CPM__cf_8h" kind="file"><name>CPM_cf.h</name>
+  </compound>
+  <compound refid="CPM__cf__impl_8h" kind="file"><name>CPM_cf_impl.h</name>
+  </compound>
+  <compound refid="CPM__demod__fc_8h" kind="file"><name>CPM_demod_fc.h</name>
+  </compound>
+  <compound refid="CPM__demod__fc__impl_8h" kind="file"><name>CPM_demod_fc_impl.h</name>
+  </compound>
+  <compound refid="DCSK__demod__cc_8h" kind="file"><name>DCSK_demod_cc.h</name>
+  </compound>
+  <compound refid="DCSK__demod__cc__impl_8h" kind="file"><name>DCSK_demod_cc_impl.h</name>
+  </compound>
+  <compound refid="DCSK__mod__cc_8h" kind="file"><name>DCSK_mod_cc.h</name>
+  </compound>
+  <compound refid="DCSK__mod__cc__impl_8h" kind="file"><name>DCSK_mod_cc_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_33062c1b25dbd551a459ab61f7e1031f" kind="dir"><name>chaos</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

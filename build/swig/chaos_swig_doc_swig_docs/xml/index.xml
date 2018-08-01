@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1chaos_1_1chaotic__prefix__bc" kind="class"><name>gr::chaos::chaotic_prefix_bc</name>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1aaa0cb35a3e323a6f0be4e9b6d027c760" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a129c685c4cd13b4da77564df2cfc2be1" kind="function"><name>Logistic_map</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__prefix__bc_1a2736b95eeb1fd84242cc54770143284d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1chaotic__seq__source__f" kind="class"><name>gr::chaos::chaotic_seq_source_f</name>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a1519a60bd9c383e799529fbf4f5ffc0f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a9b7f715c92b59cd837f75b7c3cc7f0d1" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM2__cf" kind="class"><name>gr::chaos::CPM2_cf</name>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf_1a98b0a15ec99b1206a712b822b999ce9f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__cf_1a1b1d91eab62b51eb94aafb8695a9d4b5" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM2__demod__fc" kind="class"><name>gr::chaos::CPM2_demod_fc</name>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc_1a6bf7ed113963da468253a6f30376516d" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM2__demod__fc_1a01daed9e59a3341b1b3ce4cac55ebe38" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM__cf" kind="class"><name>gr::chaos::CPM_cf</name>
+    <member refid="classgr_1_1chaos_1_1CPM__cf_1aa5173923926830bcb35a0ea2a8bc6ab4" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__cf_1a84ec98448aa5552acfa2fdc381257ec1" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1CPM__demod__fc" kind="class"><name>gr::chaos::CPM_demod_fc</name>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc_1a23806c3855950ab66c26f1de1d923abb" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1CPM__demod__fc_1a01491b81dad8fd1d8445273b72ec1bc4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1DCSK__demod__cc" kind="class"><name>gr::chaos::DCSK_demod_cc</name>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc_1a68ac781e5a280c7571914966aa330f5f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__demod__cc_1a30c95cc5edeb8b0380fb3c69b90b3e05" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1chaos_1_1DCSK__mod__cc" kind="class"><name>gr::chaos::DCSK_mod_cc</name>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc_1a0e9fbb96d28659862290ce35f9c41de6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1chaos_1_1DCSK__mod__cc_1afb0eec00b78b28188dd708312e4e725a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1chaos" kind="namespace"><name>gr::chaos</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a37c6151afb20e08f67d0537c06f8248c" kind="define"><name>CHAOS_API</name></member>
+  </compound>
+  <compound refid="chaotic__prefix__bc_8h" kind="file"><name>chaotic_prefix_bc.h</name>
+  </compound>
+  <compound refid="chaotic__seq__source__f_8h" kind="file"><name>chaotic_seq_source_f.h</name>
+  </compound>
+  <compound refid="CPM2__cf_8h" kind="file"><name>CPM2_cf.h</name>
+  </compound>
+  <compound refid="CPM2__demod__fc_8h" kind="file"><name>CPM2_demod_fc.h</name>
+  </compound>
+  <compound refid="CPM__cf_8h" kind="file"><name>CPM_cf.h</name>
+  </compound>
+  <compound refid="CPM__demod__fc_8h" kind="file"><name>CPM_demod_fc.h</name>
+  </compound>
+  <compound refid="DCSK__demod__cc_8h" kind="file"><name>DCSK_demod_cc.h</name>
+  </compound>
+  <compound refid="DCSK__mod__cc_8h" kind="file"><name>DCSK_mod_cc.h</name>
+  </compound>
+  <compound refid="dir_33062c1b25dbd551a459ab61f7e1031f" kind="dir"><name>/home/edwin/Documents/GNURadio/gr-chaos/include/chaos</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/edwin/Documents/GNURadio/gr-chaos/include</name>
+  </compound>
+</doxygenindex>

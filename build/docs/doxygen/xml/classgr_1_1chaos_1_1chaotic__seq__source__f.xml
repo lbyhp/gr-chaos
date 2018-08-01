@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1chaos_1_1chaotic__seq__source__f" kind="class" language="C++" prot="public">
+    <compoundname>gr::chaos::chaotic_seq_source_f</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl" prot="public" virt="non-virtual">gr::chaos::chaotic_seq_source_f_impl</derivedcompoundref>
+    <includes refid="chaotic__seq__source__f_8h" local="no">chaotic_seq_source_f.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1chaos_1_1chaotic__seq__source__f_1a1519a60bd9c383e799529fbf4f5ffc0f" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1chaos_1_1chaotic__seq__source__f" kindref="compound">chaotic_seq_source_f</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;chaotic_seq_source_f&gt; gr::chaos::chaotic_seq_source_f::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_seq_source_f.h" line="39" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_seq_source_f.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1chaotic__seq__source__f_1a9b7f715c92b59cd837f75b7c3cc7f0d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a1519a60bd9c383e799529fbf4f5ffc0f" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::chaos::chaotic_seq_source_f::make</definition>
+        <argsstring>(float seed, int seq_len, float map_parameter, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;(), bool repeat=false)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seq_len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>map_parameter</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+          <defval>std::vector&lt; tag_t &gt;()</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeat</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1chaos_1_1chaotic__seq__source__f" kindref="compound">chaos::chaotic_seq_source_f</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1chaos_1_1chaotic__seq__source__f" kindref="compound">chaos::chaotic_seq_source_f</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a9b7f715c92b59cd837f75b7c3cc7f0d1" kindref="member">chaos::chaotic_seq_source_f::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_seq_source_f.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>gr::chaos::chaotic_seq_source_f_impl</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f__impl"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::chaos::chaotic_seq_source_f</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>gr::chaos::chaotic_seq_source_f</label>
+        <link refid="classgr_1_1chaos_1_1chaotic__seq__source__f"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_seq_source_f.h" line="37" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/chaotic_seq_source_f.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a9b7f715c92b59cd837f75b7c3cc7f0d1" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f</scope><name>make</name></member>
+      <member refid="classgr_1_1chaos_1_1chaotic__seq__source__f_1a1519a60bd9c383e799529fbf4f5ffc0f" prot="public" virt="non-virtual"><scope>gr::chaos::chaotic_seq_source_f</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

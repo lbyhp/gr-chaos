@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1chaos_1_1CPM__cf__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::chaos::CPM_cf_impl</compoundname>
+    <basecompoundref refid="classgr_1_1chaos_1_1CPM__cf" prot="public" virt="non-virtual">gr::chaos::CPM_cf</basecompoundref>
+    <includes refid="CPM__cf__impl_8h" local="no">CPM_cf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1CPM__cf__impl_1a08a8faa651eef9061e74bbb7f66a6b03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::chaos::CPM_cf_impl::d_seed</definition>
+        <argsstring></argsstring>
+        <name>d_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="33" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1CPM__cf__impl_1aaf66996e28ca30a3383fc366cad2108d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::chaos::CPM_cf_impl::d_seq_len</definition>
+        <argsstring></argsstring>
+        <name>d_seq_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="34" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1CPM__cf__impl_1ab0193481e046a284bdf8ba1c2da7166a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::chaos::CPM_cf_impl::d_constell_tab</definition>
+        <argsstring></argsstring>
+        <name>d_constell_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="35" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1chaos_1_1CPM__cf__impl_1a09c9c4d549ca4bec986a6850b3e87463" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::chaos::CPM_cf_impl::d_para_tab</definition>
+        <argsstring></argsstring>
+        <name>d_para_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="36" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1CPM__cf__impl_1ae037c82bb089151ad291569717a5b5cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::chaos::CPM_cf_impl::chaotic_map</definition>
+        <argsstring>(float map_parameter, float x_n)</argsstring>
+        <name>chaotic_map</name>
+        <param>
+          <type>float</type>
+          <declname>map_parameter</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x_n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="38" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1chaos_1_1CPM__cf__impl_1a2bebe64391e7e72cc6b727582caf8eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::chaos::CPM_cf_impl::CPM_cf_impl</definition>
+        <argsstring>(float seed, int seq_len, std::vector&lt; gr_complex &gt; constell_tab, std::vector&lt; float &gt; para_tab)</argsstring>
+        <name>CPM_cf_impl</name>
+        <param>
+          <type>float</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seq_len</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; gr_complex &gt;</type>
+          <declname>constell_tab</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>para_tab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1CPM__cf__impl_1a12b005ccfd86c5f9c1c7bc6dbfd255a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::chaos::CPM_cf_impl::~CPM_cf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~CPM_cf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1chaos_1_1CPM__cf__impl_1aa69c2d51e94b9383e167ec6975700a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::chaos::CPM_cf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>the</label>
+      </node>
+      <node id="54">
+        <label>sync_interpolator</label>
+      </node>
+      <node id="51">
+        <label>gr::chaos::CPM_cf_impl</label>
+        <link refid="classgr_1_1chaos_1_1CPM__cf__impl"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>gr::chaos::CPM_cf</label>
+        <link refid="classgr_1_1chaos_1_1CPM__cf"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="57">
+        <label>the</label>
+      </node>
+      <node id="58">
+        <label>sync_interpolator</label>
+      </node>
+      <node id="55">
+        <label>gr::chaos::CPM_cf_impl</label>
+        <link refid="classgr_1_1chaos_1_1CPM__cf__impl"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>gr::chaos::CPM_cf</label>
+        <link refid="classgr_1_1chaos_1_1CPM__cf"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" line="30" column="1" bodyfile="/home/edwin/Documents/GNURadio/gr-chaos/lib/CPM_cf_impl.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1ae037c82bb089151ad291569717a5b5cf" prot="private" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>chaotic_map</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a2bebe64391e7e72cc6b727582caf8eaf" prot="public" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>CPM_cf_impl</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1ab0193481e046a284bdf8ba1c2da7166a" prot="private" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>d_constell_tab</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a09c9c4d549ca4bec986a6850b3e87463" prot="private" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>d_para_tab</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a08a8faa651eef9061e74bbb7f66a6b03" prot="private" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>d_seed</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1aaf66996e28ca30a3383fc366cad2108d" prot="private" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>d_seq_len</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf_1a84ec98448aa5552acfa2fdc381257ec1" prot="public" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf_1aa5173923926830bcb35a0ea2a8bc6ab4" prot="public" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1aa69c2d51e94b9383e167ec6975700a8e" prot="public" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1chaos_1_1CPM__cf__impl_1a12b005ccfd86c5f9c1c7bc6dbfd255a4" prot="public" virt="non-virtual"><scope>gr::chaos::CPM_cf_impl</scope><name>~CPM_cf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

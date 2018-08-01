@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="DCSK__demod__cc_8h" kind="file" language="C++">
+    <compoundname>DCSK_demod_cc.h</compoundname>
+    <includes refid="api_8h" local="no">chaos/api.h</includes>
+    <includes local="no">gnuradio/sync_decimator.h</includes>
+    <includedby refid="DCSK__demod__cc__impl_8h" local="no">DCSK_demod_cc_impl.h</includedby>
+    <incdepgraph>
+      <node id="94">
+        <label>chaos/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="95">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="93">
+        <label>DCSK_demod_cc.h</label>
+        <link refid="DCSK_demod_cc.h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="98">
+        <label>DCSK_demod_cc_impl.h</label>
+        <link refid="DCSK__demod__cc__impl_8h"/>
+      </node>
+      <node id="97">
+        <label>DCSK_demod_cc.h</label>
+        <link refid="DCSK_demod_cc.h"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1chaos_1_1DCSK__demod__cc" prot="public">gr::chaos::DCSK_demod_cc</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1chaos">gr::chaos</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/edwin/Documents/GNURadio/gr-chaos/include/chaos/DCSK_demod_cc.h"/>
+  </compounddef>
+</doxygen>
