@@ -57,7 +57,7 @@ namespace gr {
     gr_complex DCSK_mod_cc_impl::CPF(gr_complex x_n)
     {
 	
-	gr_complex x_nn=gr_complex(1)-gr_complex(2.0)*pow(x_n,2);
+	gr_complex x_nn=gr_complex(1)-gr_complex(2.0)*pow(x_n,float(2.0));
 	return x_nn;
     }
 
@@ -111,9 +111,9 @@ namespace gr {
 	//shrink to [-1 1]
 	for (int i=0;i<chaotic_seq.size();i++)
 	{
-	  chaotic_seq[i].real()/=coe_norm;
-	  chaotic_seq[i].imag()/=coe_norm;
-	  
+	  //chaotic_seq[i].real()/=coe_norm;
+	  //chaotic_seq[i].imag()/=coe_norm;
+	  chaotic_seq[i]/=coe_norm;
 	}
         //sign-reversed sequence
 	std::vector<gr_complex> negative_seq;
