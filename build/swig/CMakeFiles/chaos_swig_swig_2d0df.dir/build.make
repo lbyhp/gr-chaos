@@ -71,6 +71,7 @@ swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/gr_swig
 swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/sync_interpolator.i
 swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/message.i
 swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/realtime.i
+swig/chaos_swig_swig_2d0df.cpp: swig/chaos_swig_doc.i
 swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/runtime_swig_doc.i
 swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/basic_block.i
 swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/block.i
@@ -91,14 +92,23 @@ swig/chaos_swig_swig_2d0df.cpp: /home/edwin/prefix/include/gnuradio/swig/feval.i
 swig/chaos_swig_swig_2d0df.cpp: swig/chaos_swig.tag
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && /usr/bin/cmake -E copy /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig_swig_2d0df.cpp.in /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig_swig_2d0df.cpp
 
+swig/chaos_swig_doc.i: swig/chaos_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for chaos_swig_doc"
+	cd /home/edwin/Documents/GNURadio/gr-chaos/docs/doxygen && /usr/bin/python2 -B /home/edwin/Documents/GNURadio/gr-chaos/docs/doxygen/swig_doc.py /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig_doc_swig_docs/xml /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig_doc.i
+
 swig/chaos_swig.tag: swig/_chaos_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating chaos_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating chaos_swig.tag"
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && ./_chaos_swig_swig_tag
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && /usr/bin/cmake -E touch /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig.tag
 
+swig/chaos_swig_doc_swig_docs/xml/index.xml: swig/_chaos_swig_doc_tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for chaos_swig_doc docs"
+	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && ./_chaos_swig_doc_tag
+	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && /usr/bin/doxygen /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig_doc_swig_docs/Doxyfile
+
 swig/CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.o: swig/CMakeFiles/chaos_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.o: swig/chaos_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.o"
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.o -c /home/edwin/Documents/GNURadio/gr-chaos/build/swig/chaos_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.i: cmake_force
@@ -130,7 +140,7 @@ chaos_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/chaos_swig_swig_2d0df: swig/CMakeFiles/chaos_swig_swig_2d0df.dir/chaos_swig_swig_2d0df.cpp.o
 swig/chaos_swig_swig_2d0df: swig/CMakeFiles/chaos_swig_swig_2d0df.dir/build.make
 swig/chaos_swig_swig_2d0df: swig/CMakeFiles/chaos_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable chaos_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edwin/Documents/GNURadio/gr-chaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable chaos_swig_swig_2d0df"
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chaos_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build/swig && /usr/bin/cmake -E make_directory /home/edwin/Documents/GNURadio/gr-chaos/build/swig
@@ -150,7 +160,9 @@ swig/CMakeFiles/chaos_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/chaos_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/chaos_swig_swig_2d0df.dir/depend: swig/chaos_swig_swig_2d0df.cpp
+swig/CMakeFiles/chaos_swig_swig_2d0df.dir/depend: swig/chaos_swig_doc.i
 swig/CMakeFiles/chaos_swig_swig_2d0df.dir/depend: swig/chaos_swig.tag
+swig/CMakeFiles/chaos_swig_swig_2d0df.dir/depend: swig/chaos_swig_doc_swig_docs/xml/index.xml
 	cd /home/edwin/Documents/GNURadio/gr-chaos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edwin/Documents/GNURadio/gr-chaos /home/edwin/Documents/GNURadio/gr-chaos/swig /home/edwin/Documents/GNURadio/gr-chaos/build /home/edwin/Documents/GNURadio/gr-chaos/build/swig /home/edwin/Documents/GNURadio/gr-chaos/build/swig/CMakeFiles/chaos_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/chaos_swig_swig_2d0df.dir/depend
 
